@@ -11,10 +11,10 @@ class Kf5Kcodecs < Formula
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "0ecc36c9c5a270326556d666b359c90813cdc52d5387656e0b58623f1f84b7d6" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "0ecc36c9c5a270326556d666b359c90813cdc52d5387656e0b58623f1f84b7d6" => :sierra
+#  end
 
   def install
     args = std_cmake_args
