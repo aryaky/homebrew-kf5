@@ -6,7 +6,7 @@ Experimental Homebrew (http://brew.sh) tap for KDE Frameworks on Mac OS X.
 To add the KDE Frameworks Tap to your homebrew installation:
 
 ```sh
-brew tap chigraph/kf5
+brew tap aryaky/kf5
 ```
 
 In order to build them, you first need an up to date Qt 5 with
