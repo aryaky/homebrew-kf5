@@ -9,12 +9,12 @@ class Grantlee5 < Formula
 
   depends_on "cmake" => :build
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "f6b7b7cd27ca92f9ed7f9054c958e547ad2320e468892fa0f7c93a1197d89b7a" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "f6b7b7cd27ca92f9ed7f9054c958e547ad2320e468892fa0f7c93a1197d89b7a" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 
