@@ -8,7 +8,7 @@ class Kf5Karchive < Formula
   head "git://anongit.kde.org/karchive.git"
 
   depends_on "cmake" => :build
-  depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
+  depends_on "aryaky/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
 
 #  bottle do
