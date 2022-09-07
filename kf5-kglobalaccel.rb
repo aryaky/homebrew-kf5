@@ -17,10 +17,10 @@ class Kf5Kglobalaccel < Formula
   depends_on "chigraph/kf5/kf5-kservice"
   depends_on "qt"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "de2579ba8e01209152bd85d1dbc4b7e36763bced37564b64002125b57179c562" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "de2579ba8e01209152bd85d1dbc4b7e36763bced37564b64002125b57179c562" => :sierra
+#  end
 
   def install
     args = std_cmake_args

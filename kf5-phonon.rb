@@ -10,12 +10,12 @@ class Kf5Phonon < Formula
   depends_on "cmake" => :build
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "4e5ba75696bb50f36c11850a9c3be6833fa6646317919c895a86a0287ff9e698" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "4e5ba75696bb50f36c11850a9c3be6833fa6646317919c895a86a0287ff9e698" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
     args << "-DPHONON_BUILD_PHONON4QT5=ON"

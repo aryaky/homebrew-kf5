@@ -9,11 +9,11 @@ class Kf5ExtraCmakeModules < Formula
 
   depends_on "cmake" => :build
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    cellar :any_skip_relocation
-    sha256 "d6d47f60838b5c6a604d6aa6fd916d56a0c468f2964f0a752474247cd016911d" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    cellar :any_skip_relocation
+#    sha256 "d6d47f60838b5c6a604d6aa6fd916d56a0c468f2964f0a752474247cd016911d" => :sierra
+#  end
 
   def install
     system "cmake", ".", *std_cmake_args

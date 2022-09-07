@@ -21,10 +21,10 @@ class Kf5Kdoctools < Formula
     DATA
   end
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "f4295a034629356ad99f5aeddd966bf15141c0a2bf0376835507a1a7443048ce" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "f4295a034629356ad99f5aeddd966bf15141c0a2bf0376835507a1a7443048ce" => :sierra
+#  end
 
   def install
     # system "cpanm", "URI"

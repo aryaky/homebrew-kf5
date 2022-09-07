@@ -12,10 +12,10 @@ class Kf5Kcoreaddons < Formula
   depends_on "qt"
   depends_on "shared-mime-info"
 
-  bottle do
-    root_url "http://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "6e3d881a5ad677658a79466b069e466fadb6a6b77218580c8be3a53f738136dd" => :sierra
-  end
+#  bottle do
+#    root_url "http://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "6e3d881a5ad677658a79466b069e466fadb6a6b77218580c8be3a53f738136dd" => :sierra
+#  end
 
   def install
     args = std_cmake_args

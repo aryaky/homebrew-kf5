@@ -16,10 +16,10 @@ class Kf5Kdesignerplugin < Formula
   depends_on "chigraph/kf5/kf5-kplotting"
   depends_on "qt"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "d212b7c9e6d674c600674f30d9afff5cc4d0b582f0238b24ec53c8aca0909007" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "d212b7c9e6d674c600674f30d9afff5cc4d0b582f0238b24ec53c8aca0909007" => :sierra
+#  end
 
   def install
     args = std_cmake_args

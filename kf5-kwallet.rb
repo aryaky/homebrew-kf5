@@ -13,12 +13,12 @@ class Kf5Kwallet < Formula
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
   depends_on "chigraph/kf5/kf5-knotifications"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "3e15a7c8c730cf4efab7b461d68061ccd0258dac2182c32169693dc0f8a70bc9" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "3e15a7c8c730cf4efab7b461d68061ccd0258dac2182c32169693dc0f8a70bc9" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

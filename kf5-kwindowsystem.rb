@@ -10,12 +10,12 @@ class Kf5Kwindowsystem < Formula
   depends_on "cmake" => :build
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "9590089f8a53afa214143d62fc013ba0c15d64799e1ec5104cfc2bdc3c35f246" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "9590089f8a53afa214143d62fc013ba0c15d64799e1ec5104cfc2bdc3c35f246" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

@@ -17,12 +17,12 @@ class Kf5Kservice < Formula
   depends_on "chigraph/kf5/kf5-kdbusaddons"
   depends_on "chigraph/kf5/kf5-kconfig"
   depends_on "chigraph/kf5/kf5-ki18n"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "d6a4b7a39fc8d1acf173f1321fe9043cd5aeb3da0edd40fa5e6c8544f5316e94" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "d6a4b7a39fc8d1acf173f1321fe9043cd5aeb3da0edd40fa5e6c8544f5316e94" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

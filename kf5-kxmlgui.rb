@@ -13,12 +13,12 @@ class Kf5Kxmlgui < Formula
   depends_on "chigraph/kf5/kf5-ktextwidgets"
   depends_on "chigraph/kf5/kf5-attica"
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "5d7859be26c979e1d19a0da3b9b935d8a9ab148f4b664adc3ee3b55945f65f3e" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "5d7859be26c979e1d19a0da3b9b935d8a9ab148f4b664adc3ee3b55945f65f3e" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

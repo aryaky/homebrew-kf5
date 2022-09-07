@@ -11,11 +11,11 @@ class Kf5Sonnet < Formula
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "3a760e8fa8190336e728c836e33ddbc54909b24b9631397eec66fbddee0e4902" => :sierra
-  end
-
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "3a760e8fa8190336e728c836e33ddbc54909b24b9631397eec66fbddee0e4902" => :sierra
+#  end
+#
   # TODO: figure out how to properly fix https://github.com/haraldF/homebrew-kf5/issues/72
   conflicts_with "hunspell"
 

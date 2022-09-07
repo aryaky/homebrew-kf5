@@ -11,12 +11,12 @@ class Kf5Kmediaplayer < Formula
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "chigraph/kf5/kf5-kparts"
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "87707ba91f7fc9c224ae1eb5347c3c67010384708bce7b337345c5b31f9dda36" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "87707ba91f7fc9c224ae1eb5347c3c67010384708bce7b337345c5b31f9dda36" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

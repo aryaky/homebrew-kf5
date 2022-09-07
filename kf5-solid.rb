@@ -12,12 +12,12 @@ class Kf5Solid < Formula
   depends_on "bison" => :build
   depends_on "chigraph/kf5/kf5-extra-cmake-modules" => :build
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "157c46e7a486ca2d710ad302aaf6dd373a70d15eed0cbaf56043d255b81d98ee" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "157c46e7a486ca2d710ad302aaf6dd373a70d15eed0cbaf56043d255b81d98ee" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

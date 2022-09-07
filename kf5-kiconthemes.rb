@@ -12,12 +12,12 @@ class Kf5Kiconthemes < Formula
   depends_on "chigraph/kf5/kf5-kconfigwidgets"
   depends_on "chigraph/kf5/kf5-kitemviews"
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "345b8211db42bee32c11d2a177584b9b9accc30c517be1fb8669ed8a80602555" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "345b8211db42bee32c11d2a177584b9b9accc30c517be1fb8669ed8a80602555" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

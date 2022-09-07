@@ -12,10 +12,10 @@ class Kf5Kauth < Formula
   depends_on "qt"
   depends_on "chigraph/kf5/kf5-kcoreaddons"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "1354a33a896478f2be277b6e36f2e76f7e2e0c6c7c481013eeed582bea5c92ff" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "1354a33a896478f2be277b6e36f2e76f7e2e0c6c7c481013eeed582bea5c92ff" => :sierra
+#  end
 
   def install
     args = std_cmake_args

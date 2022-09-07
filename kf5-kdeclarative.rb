@@ -16,10 +16,10 @@ class Kf5Kdeclarative < Formula
 
   patch :DATA
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "bf19f916dc47fdffb05dd258d0a0bf5c1186d7f8d1dc7c1085ebb16343e156ea" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "bf19f916dc47fdffb05dd258d0a0bf5c1186d7f8d1dc7c1085ebb16343e156ea" => :sierra
+#  end
 
   def install
     args = std_cmake_args

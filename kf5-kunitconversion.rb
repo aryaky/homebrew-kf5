@@ -12,12 +12,12 @@ class Kf5Kunitconversion < Formula
   depends_on "qt"
   depends_on "gettext" => :build
   depends_on "chigraph/kf5/kf5-ki18n"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "35a3d6501e188bcb38d7fae6658c65e194a4293634eff8f6c8963cca5e6a55b2" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "35a3d6501e188bcb38d7fae6658c65e194a4293634eff8f6c8963cca5e6a55b2" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

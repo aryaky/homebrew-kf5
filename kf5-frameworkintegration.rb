@@ -12,10 +12,10 @@ class Kf5Frameworkintegration < Formula
   depends_on "qt"
   depends_on "chigraph/kf5/kf5-kio"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "c6d34cbe53b0721ffb6611fa718372bf87f6a42e9a845615eefd3203f69dbd10" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "c6d34cbe53b0721ffb6611fa718372bf87f6a42e9a845615eefd3203f69dbd10" => :sierra
+#  end
 
   def install
     args = std_cmake_args

@@ -14,12 +14,12 @@ class Kf5Ktextwidgets < Formula
   depends_on "chigraph/kf5/kf5-kservice"
   depends_on "chigraph/kf5/kf5-sonnet"
   depends_on "qt"
-
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "6bf4a9b36cc4707bc48c49762b0514e4115b4ab13b5d7af6937385132a8992a8" => :sierra
-  end
-
+#
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "6bf4a9b36cc4707bc48c49762b0514e4115b4ab13b5d7af6937385132a8992a8" => :sierra
+#  end
+#
   def install
     args = std_cmake_args
 

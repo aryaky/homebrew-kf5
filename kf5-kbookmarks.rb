@@ -12,10 +12,10 @@ class Kf5Kbookmarks < Formula
   depends_on "chigraph/kf5/kf5-kxmlgui"
   depends_on "qt"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "d13239b9083db21c6cb648ac514fe4d118e34a844046d90f3410013259a1f684" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "d13239b9083db21c6cb648ac514fe4d118e34a844046d90f3410013259a1f684" => :sierra
+#  end
 
   def install
     args = std_cmake_args

@@ -28,10 +28,10 @@ class Kf5Kate < Formula
   depends_on "chigraph/kf5/kf5-kwallet"
   depends_on "chigraph/kf5/kf5-breeze-icons"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "669a66219f59267adf3540df5666e678d6e1ae1cac1adbfdefa6ec47e40c6159" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "669a66219f59267adf3540df5666e678d6e1ae1cac1adbfdefa6ec47e40c6159" => :sierra
+#  end
 
   def install
     args = std_cmake_args

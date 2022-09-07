@@ -15,10 +15,10 @@ class Kf5Kconfig < Formula
     DATA
   end
 
-  bottle do
-    root_url "http://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "07f4730913cb7606a5b2e6171b1ac704dbddafa7af7f39c510af4e9b8b30e41d" => :sierra
-  end
+#  bottle do
+#    root_url "http://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "07f4730913cb7606a5b2e6171b1ac704dbddafa7af7f39c510af4e9b8b30e41d" => :sierra
+#  end
 
   def install
     args = std_cmake_args

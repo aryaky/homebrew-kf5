@@ -19,10 +19,10 @@ class Kf5Kconfigwidgets < Formula
   depends_on "chigraph/kf5/kf5-kwidgetsaddons"
   depends_on "chigraph/kf5/kf5-ki18n"
 
-  bottle do
-    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
-    sha256 "08d481343d8b2a71ccfba78dcfc806ce8624f87e7ad63805310157473ccf52e4" => :sierra
-  end
+#  bottle do
+#    root_url "https://dl.chigraph.io/dependencies/darwin/brew"
+#    sha256 "08d481343d8b2a71ccfba78dcfc806ce8624f87e7ad63805310157473ccf52e4" => :sierra
+#  end
 
   def install
     args = std_cmake_args
